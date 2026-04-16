@@ -64,3 +64,33 @@ body {
   grid-row: 1 / span 2;
   grid-column: 4;
 }
+
+#level-5 {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+}
+
+#level-5 .carrots {
+  grid-row: 1 / span 3;
+  grid-column: 1;
+}
+#level-5 .onions {
+  grid-row: 1 / span 2;
+  grid-column: 3;
+}
+
+#level-5 .peas {
+  grid-row: 2;
+  grid-column: 4 / span 2;
+}
+
+#level-5 .lettuce {
+  grid-row: 1;
+  grid-column: 5;
+}
+
+#level-5 .tomatoes {
+  grid-row: 3;
+  grid-column: 2 / span 3;
+}
