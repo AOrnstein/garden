@@ -46,3 +46,21 @@ body {
 #level-3 .carrots {
   grid-column: span 3;
 }
+
+#level-4 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+#level-4 .peas {
+  grid-column: 1 / span 2;
+}
+
+#level-4 .onions {
+  grid-row: span 2;
+}
+
+#level-4 .carrots {
+  grid-row: 1 / span 2;
+  grid-column: 4;
+}
